@@ -1,0 +1,126 @@
+// Global Padding
+$padding-1: calc(1 * 1em);
+$padding-2: calc(2 * 1em);  
+$padding-4: calc(4 * 1em);
+
+[v-cloak] {
+    display: none
+}
+
+body {
+    width: 100vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+// main {
+//     padding: $padding-2;
+
+//     @media only screen and(min-device-width: 768px) {
+//         padding: $padding-4;
+//     }
+// }
+
+section {
+    width: 100%;
+}
+
+a {
+    cursor: pointer;
+}
+
+body {
+    text-align: center;
+  }
+
+  .links ul {
+    padding: 25px 15px;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    justify-content: center;
+  }
+
+  @media only screen and (min-width: 560px) {
+    body {
+      text-align: left;
+    }
+    .links ul {
+        padding: 23px 15px;
+        display: flex;
+        justify-content: flex-end;
+      }
+      .logo {
+        max-width: 60px;
+        max-height: 60px;
+        position: absolute;
+        left: 0;
+        top: 10px;
+      }
+      .topnav {
+        grid-template-columns: 80% 20%;
+      }
+    }
+
+  .links a {
+    font-weight: bold;
+    color: #2c3e50;
+    margin: 0 10px;
+  }
+
+  a:hover {
+    color: #3BB6D4;
+  }
+
+  nav a.router-link-exact-active {
+    color: #3BB6D4;
+  }
+
+  .topnav {
+    height: 50px;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-bottom: 2px solid rgba(239, 239, 240, 1);
+  }
+
+  .search {
+    border-left: 2px solid rgba(239, 239, 240, 1);
+    justify-content: flex-start;
+    max-width: 60%;
+  }
+  
+  .lightdark {
+    border-left: 2px solid rgba(239, 239, 240, 1);
+    border-right: 2px solid rgba(239, 239, 240, 1);
+    justify-content: flex-end;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 48px;
+  }
+
+  .light {
+    border-bottom: 4px solid teal;
+    height: 100%;
+  }
+
+  .dark {
+    background: #be334a;
+  }
+
+  input {
+    height: 48px;
+  }
+  input:focus {
+    border: none;
+    outline: none;
+  }
+  .logo {
+    max-width: 60px;
+    max-height: 60px;
+    margin: auto;
+    padding-left: 7px;
+  }
+
+  .althead .btn  {
+    display: none; 
+  }

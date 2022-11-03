@@ -1,0 +1,26 @@
+.btn {
+    -webkit-border-radius: 36;
+    -moz-border-radius: 36;
+    border-radius: 36px;
+    color: #BD384D;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    transition: transform .1s;
+    background: white;
+    border: 1px solid transparent;
+    border-radius: 50px !important;
+  }
+  
+  .btn:hover {
+    background: #ffffff;
+    text-decoration: none;
+    -webkit-box-shadow: 0px 1px 3px #666666;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    box-shadow: 0px 1px 3px #666666;
+    /* transform: scale(1.1); */
+    color: #BD384D;
+    border: solid #BD384D 1px;
+    font-weight: 700;
+  
+  }

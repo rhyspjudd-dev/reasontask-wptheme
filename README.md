@@ -1,31 +1,18 @@
-# Reason Technical Task Pt2
+# Reason Technical Task Pt1
 ```
-Vue-app
+Core tech used
+Wordpress
 Core tech: 
-Vue.js, 
-VueRouter (see: app/src/router/index.js), 
-vuex (see: app/src/store/store.js),
-tailwind, ES6
+Wordpress,
+ES6, 
+Vue.js,
+SCSS
+PHP, 
+Google Maps API,
+tailwind
 
 Thanks for considering me for the role :)
 
 ```
-App deployed to Netlfiy [here](https://snazzy-cajeta-1e3018.netlify.app/)
+App deployed to TasteWP [here](#)
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

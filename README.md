@@ -1,4 +1,4 @@
-# Reason Technical Task Pt1
+# Reason Technical Task Pt2
 ```
 Core tech used
 Wordpress
@@ -14,5 +14,5 @@ tailwind
 Thanks for considering me for the role :)
 
 ```
-App deployed to TasteWP [here](#)
+App deployed to TasteWP [here](https://disillusionedsystem.s4-tastewp.com/)
 

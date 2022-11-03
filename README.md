@@ -1,7 +1,5 @@
 # Reason Technical Task Pt2
 ```
-Core tech used
-Wordpress
 Core tech: 
 Wordpress,
 ES6, 
